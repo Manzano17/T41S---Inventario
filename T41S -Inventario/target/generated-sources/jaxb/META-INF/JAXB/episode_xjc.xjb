@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.06.13 a las 11:15:47 AM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="https://inventario.mx.uv/inventario">
+    <schemaBindings map="false">
+      <package name="uv.mx.inventario.gen"/>
+    </schemaBindings>
+    <bindings scd="tns:AgregarProductoRequest">
+      <class ref="uv.mx.inventario.gen.AgregarProductoRequest"/>
+    </bindings>
+    <bindings scd="tns:AgregarProductoResponse">
+      <class ref="uv.mx.inventario.gen.AgregarProductoResponse"/>
+    </bindings>
+    <bindings scd="tns:VerificarProductoRequest">
+      <class ref="uv.mx.inventario.gen.VerificarProductoRequest"/>
+    </bindings>
+    <bindings scd="tns:VerificarProductoResponse">
+      <class ref="uv.mx.inventario.gen.VerificarProductoResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
